@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 360" width="240" height="360">
+  <!-- Ocean background -->
+  <rect width="240" height="360" fill="#E0F7FA" rx="12"/>
+
+  <!-- Bubbles -->
+  <circle cx="30" cy="80" r="6" fill="none" stroke="#80DEEA" stroke-width="1.5"/>
+  <circle cx="50" cy="50" r="4" fill="none" stroke="#80DEEA" stroke-width="1.5"/>
+  <circle cx="200" cy="100" r="5" fill="none" stroke="#80DEEA" stroke-width="1.5"/>
+  <circle cx="210" cy="60" r="3" fill="none" stroke="#80DEEA" stroke-width="1.5"/>
+
+  <!-- Fish tail (fin) -->
+  <path d="M 100 270 Q 60 310 85 340 Q 120 360 155 340 Q 180 310 140 270 Z" fill="#00897B"/>
+  <path d="M 100 270 Q 120 295 140 270" fill="#004D40" opacity="0.4"/>
+
+  <!-- Tail body scales -->
+  <ellipse cx="100" cy="220" rx="38" ry="55" fill="#00ACC1"/>
+  <!-- Scale details -->
+  <path d="M 80 200 Q 100 190 120 200" stroke="#00838F" stroke-width="1.5" fill="none"/>
+  <path d="M 75 215 Q 100 205 125 215" stroke="#00838F" stroke-width="1.5" fill="none"/>
+  <path d="M 73 230 Q 100 220 127 230" stroke="#00838F" stroke-width="1.5" fill="none"/>
+  <path d="M 76 245 Q 100 235 124 245" stroke="#00838F" stroke-width="1.5" fill="none"/>
+  <path d="M 82 260 Q 100 252 118 260" stroke="#00838F" stroke-width="1.5" fill="none"/>
+
+  <!-- Side fins -->
+  <path d="M 62 200 Q 30 185 38 215 Q 48 230 62 218 Z" fill="#00ACC1"/>
+  <path d="M 138 200 Q 170 185 162 215 Q 152 230 138 218 Z" fill="#00ACC1"/>
+
+  <!-- Torso -->
+  <ellipse cx="100" cy="155" rx="32" ry="40" fill="#FFCCBC"/>
+
+  <!-- Seashell top / clothing -->
+  <ellipse cx="88" cy="150" rx="14" ry="10" fill="#F48FB1" transform="rotate(-10,88,150)"/>
+  <ellipse cx="112" cy="150" rx="14" ry="10" fill="#F48FB1" transform="rotate(10,112,150)"/>
+  <!-- shell lines -->
+  <path d="M 78 148 Q 88 140 98 148" stroke="#E91E63" stroke-width="1" fill="none"/>
+  <path d="M 102 148 Q 112 140 122 148" stroke="#E91E63" stroke-width="1" fill="none"/>
+
+  <!-- Neck -->
+  <rect x="93" y="118" width="14" height="18" rx="4" fill="#FFCCBC"/>
+
+  <!-- Head -->
+  <circle cx="100" cy="105" r="28" fill="#FFCCBC"/>
+
+  <!-- Hair flowing -->
+  <path d="M 72 100 Q 55 60 70 30 Q 90 10 115 25 Q 140 10 155 35 Q 165 60 148 100"
+        fill="#00838F" stroke="none"/>
+  <path d="M 72 100 Q 50 130 55 170 Q 62 200 68 210"
+        stroke="#00838F" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M 128 100 Q 150 130 145 170 Q 138 200 132 210"
+        stroke="#00838F" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- Hair highlight -->
+  <path d="M 85 25 Q 100 18 115 25" stroke="#4DD0E1" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes -->
+  <ellipse cx="90" cy="103" rx="5" ry="6" fill="white"/>
+  <ellipse cx="110" cy="103" rx="5" ry="6" fill="white"/>
+  <circle cx="91" cy="104" r="3.5" fill="#00695C"/>
+  <circle cx="111" cy="104" r="3.5" fill="#00695C"/>
+  <circle cx="92" cy="103" r="1.2" fill="black"/>
+  <circle cx="112" cy="103" r="1.2" fill="black"/>
+  <!-- Eye sparkle -->
+  <circle cx="93" cy="101" r="1" fill="white"/>
+  <circle cx="113" cy="101" r="1" fill="white"/>
+
+  <!-- Eyebrows -->
+  <path d="M 84 96 Q 91 93 97 96" stroke="#005F56" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 103 96 Q 109 93 116 96" stroke="#005F56" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <path d="M 99 110 Q 100 115 101 110" stroke="#D4A090" stroke-width="1.5" fill="none"/>
+
+  <!-- Smile -->
+  <path d="M 90 118 Q 100 125 110 118" stroke="#D4A090" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Cheek blush -->
+  <ellipse cx="82" cy="115" rx="7" ry="4" fill="#FFAB91" opacity="0.5"/>
+  <ellipse cx="118" cy="115" rx="7" ry="4" fill="#FFAB91" opacity="0.5"/>
+
+  <!-- Arms -->
+  <path d="M 68 140 Q 45 155 50 175 Q 55 185 65 178"
+        stroke="#FFCCBC" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M 132 140 Q 155 155 150 175 Q 145 185 135 178"
+        stroke="#FFCCBC" stroke-width="9" fill="none" stroke-linecap="round"/>
+
+  <!-- Starfish accessory in hair -->
+  <polygon points="100,42 103,50 111,50 105,55 107,63 100,58 93,63 95,55 89,50 97,50"
+           fill="#FF8A65" stroke="#E64A19" stroke-width="0.5"/>
+</svg>
